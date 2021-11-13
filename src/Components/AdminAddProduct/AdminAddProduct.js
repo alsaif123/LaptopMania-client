@@ -29,7 +29,7 @@ const AdminAddProduct = () => {
       adminName: data.name,
       date: selectedDate.toLocaleDateString("en-US"),
     };
-    const url = "http://localhost:6565/addProduct";
+    const url = "https://secret-headland-63766.herokuapp.com/addProduct";
 
     console.log(newProduct);
 

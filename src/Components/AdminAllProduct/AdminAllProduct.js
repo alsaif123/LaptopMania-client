@@ -19,7 +19,7 @@ const AdminAllProduct = ({ product }) => {
   console.log(product);
 
   const handleDelete = () => {
-    fetch(`http://localhost:6565/delete/${_id}`, {
+    fetch(`https://secret-headland-63766.herokuapp.com/delete/${_id}`, {
       method: "DELETE",
     })
       .then((res) => res.json())
