@@ -4,7 +4,7 @@ import { UserContext } from '../../App';
 // import { UserContext } from '../../App';
 
 const PrivateRoute = ({ children, ...rest }) => {
-   const [signedInUser,setSignedInUser]=useContext(UserContext);
+   const [signedInUser]=useContext(UserContext);
   const email = signedInUser.email;  
 
     return (

@@ -23,7 +23,7 @@ It's a MERN stack practice project.
 ## To install this project follow bellow code  
 
 ```bash 
-git clone https://github.com/programming-hero-web-course1/tourism-or-delivery-website-client-side-alsaif123
+git clone https://github.com/programming-hero-web-course-4/niche-website-client-side-alsaif123
 npm install
 npm start
 ```
