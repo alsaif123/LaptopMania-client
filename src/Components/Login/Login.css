@@ -1,0 +1,127 @@
+.signinform{
+   margin: 100px auto;
+    
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.form{
+    margin: 50px auto; 
+    text-align: center;   
+    border-radius: 7px;
+    padding: 30px 20px;   
+    box-shadow: -5px 3px 20px -4px rgba(124, 132, 138, 0.822);
+    width:500px;
+    background: #fff;
+}
+.form h3{
+ letter-spacing: 5px;
+ padding-left: 5px;
+ margin: 1.5rem 0;
+ text-align: center;
+}
+.input{
+    padding: 15px 10px;
+   
+    margin: 0 auto;
+}
+.signup ,.link,.social-login{
+    padding: .5rem 0;
+}
+ 
+ 
+.input>input{
+    padding: 8px 36px;    
+    border: none;
+    color: black;
+    border-radius: 999px;
+    border: 1px solid var(--primary-color);
+ 
+    
+}
+form>.button{
+    background: var(--primary-color);
+    border-radius: 999px;
+    padding:8px 30px;
+    margin-left: 1rem;
+    color:#fff;
+    font-weight: 500;
+    border: none;
+    font-size: 1.2rem;
+    
+
+}
+ 
+ 
+.social-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+     
+}
+.social-login>h5{
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.social-icons{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;  
+    margin: 10px 0; 
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center; 
+    border-radius:10%;
+    margin-right: 10px;
+    cursor: pointer;
+     
+}
+ 
+.icon img{
+    height:30px;
+     
+}
+ 
+@media(max-width:570px){
+ 
+.form{
+   width: 80%;
+   padding: 5px 10px;
+   
+}
+  
+.form h3{
+ 
+ color: var(--primary-color);
+}
+.input{
+    padding: 15px 10px;
+    min-width: 60%;
+    margin: 0 auto;
+}
+ 
+ 
+ 
+.input>input{
+    padding: 6px 26px;    
+     
+ 
+    
+}
+form>.button{
+    margin: .5rem 0;
+}
+ 
+ 
+ 
+.social-login>h5{    
+    font-size: .7rem;  
+}
+}

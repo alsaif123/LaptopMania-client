@@ -1,0 +1,35 @@
+.search{
+ margin: 5rem auto;
+}
+ .search h3{
+     text-transform: uppercase;
+     color: rgb(1, 119, 128);
+     letter-spacing: 5px;
+     font-family: 'Courier New', Courier, monospace;
+     margin: 2rem auto;
+     font-weight: 600;
+ }   
+
+.search>input[type="search"]{
+    background: rgb(229, 255, 253);
+    background: #fff;
+    border-radius: 10px;
+    border: none;
+   
+    padding: 5px 60px;
+}
+ .search>.btn{
+      border-radius: 10px;
+      padding: 5px 20px;
+ }
+ @media(max-width:400px){
+
+.search>input[type="search"]{
+   margin: .5rem auto;
+    padding: 5px 30px;
+}
+.search>.btn{
+      border-radius: 10px;
+      padding: 5px 10px;
+ }
+}

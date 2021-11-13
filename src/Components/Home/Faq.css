@@ -1,0 +1,25 @@
+.faqCard {
+    background: var(--primary-color);
+    color: #111;
+    border-top: 1px solid #fff;
+    width: 100%;
+  }
+  .faqHeader {
+    border: none;
+    text-align: justify;
+  }
+  .faqDesc {
+    background: #fff;
+    color: #111;
+    border-top: 1px solid #fff;
+  }
+  
+  @media screen and (max-width: 525px) {
+    .faqHeader {
+      text-align: left;
+    }
+  
+    .faqDesc {
+      text-align: left;
+    }
+  }

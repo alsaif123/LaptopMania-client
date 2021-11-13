@@ -1,0 +1,16 @@
+.about{
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    margin: 7rem 0;
+
+}
+.about h3{
+  border-bottom:4px solid black;
+}
+  
+.about ul{
+    text-align: justify;
+    padding: 0 5rem;
+}
+ 

@@ -1,0 +1,72 @@
+.admin {
+  display: grid;
+  grid-template-columns: 3fr 9fr;
+}
+.sidebar {
+  background: rgb(1, 37, 39);
+  min-height: 100vh;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  margin-left: -100px;
+}
+.admin-content > h3 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2rem;
+  font-weight: 600;
+  border-bottom: 2px solid #fff;
+}
+.admin-form {
+  box-shadow: -5px 3px 20px -4px rgba(124, 132, 138, 0.822);
+  background: rgb(1, 37, 39);
+  border-radius: 10px;
+}
+
+.admin-form > input {
+  border: none;
+  background: #fff;
+  border-radius: 10px;
+  padding: 8px 40px;
+}
+
+.admin-form > label {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+  margin-top: 1rem;
+}
+.admin-form > input[type="file"] {
+  background: rgb(229, 255, 253);
+  padding: 30px 20px;
+}
+.admin-form > input[type="submit"] {
+  margin: 1.5rem 0;
+  padding: 6px 30px;
+  font-weight: 600;
+}
+
+.admin-info,
+.product-info {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.sidebar>a,.sidebar>button{
+    background: rgb(1, 37, 39);
+    border: 1px solid #fff;
+    border-radius: none !important;
+}
+.sidebar>a:hover,.sidebar>button:hover{
+color: #fff;
+}
+@media (max-width: 600px) {
+  .admin {
+    grid-template-columns: 1fr;
+  }
+  .sidebar {
+    min-height: 20vh;
+    margin: auto 20px;
+    background: rgb(1, 37, 39);
+  }
+}
