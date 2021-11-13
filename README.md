@@ -10,7 +10,7 @@ It's a MERN stack practice project.
 <a href="https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-alsaif123">Link</a> 
 
 ### Live Server:
-<a href="https://powerful-dusk-92883.herokuapp.com/ ">Link</a> 
+<a href="https://secret-headland-63766.herokuapp.com/ ">Link</a> 
 
 ## Features
 
@@ -23,7 +23,7 @@ It's a MERN stack practice project.
 ## To install this project follow bellow code  
 
 ```bash 
-git clone https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-alsaif123.git
+git clone https://github.com/programming-hero-web-course1/tourism-or-delivery-website-client-side-alsaif123
 npm install
 npm start
 ```

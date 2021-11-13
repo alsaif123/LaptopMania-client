@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "laptop-bazar-2e5ba"
-  }
+    "default": "laptop-mania",
+    "staging": "laptop-bazar-2e5ba"
+  },
+  "targets": {}
 }
