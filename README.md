@@ -3,11 +3,11 @@
 It's a MERN stack practice project.
 
 ### Client side code : 
-<a href="https://github.com/programming-hero-web-course1/tourism-or-delivery-website-client-side-alsaif123">Link</a>
+<a href="https://github.com/programming-hero-web-course-4/niche-website-client-side-alsaif123">Link</a>
 ### Live Link:  
-<a href="https://tourisom-authentication.web.app/">Link</a>
+<a href="https://laptop-mania.web.app/">Link</a>
 ### Server Side code : 
-<a href="https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-alsaif123">Link</a> 
+<a href="https://github.com/programming-hero-web-course-4/niche-website-server-side-alsaif123">Link</a> 
 
 ### Live Server:
 <a href="https://secret-headland-63766.herokuapp.com/ ">Link</a> 
