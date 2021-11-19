@@ -44,7 +44,7 @@ const CheckOut = () => {
       productImg: product.img,
     };
     console.log(checkOutInfo);
-    fetch("https://laptop-bazar-sever.herokuapp.com/addOrderedProduct", {
+    fetch("http://localhost:6565/addOrderedProduct", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
