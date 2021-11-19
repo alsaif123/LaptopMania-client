@@ -29,9 +29,9 @@ const AdminAddProduct = () => {
       adminName: data.name,
       date: selectedDate.toLocaleDateString("en-US"),
     };
-    const url = "https://secret-headland-63766.herokuapp.com/addProduct";
+    const url = "http://localhost:6565/addProduct";
 
-    console.log(newProduct);
+   
 
     fetch(url, {
       method: "POST",

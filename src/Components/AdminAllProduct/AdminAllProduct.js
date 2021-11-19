@@ -1,8 +1,7 @@
-// import { faTrash } from '@fortawesome/free-solid-svg-icons';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+ 
 import React, { useContext } from "react";
 import { useHistory, Link } from "react-router-dom";
-// import Table from 'react-bootstrap/Table'
+ 
 import { CardGroup } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
 import "../AdminAddProduct/Admin.css";
@@ -12,14 +11,12 @@ const AdminAllProduct = ({ product }) => {
   const [signedInUser, setSignedInUser] = useContext(UserContext);
   const signedInUserName = signedInUser.name;
   const signedInEmail = signedInUser.email;
-
-  // const signedInEmail = JSON.parse(localStorage.getItem("email"));
-  //      const signedInName = JSON.parse(localStorage.getItem("name"));
+ 
   const { _id, name, stock, price, img, adminEmail, adminName } = product;
   console.log(product);
 
   const handleDelete = () => {
-    fetch(`https://secret-headland-63766.herokuapp.com/delete/${_id}`, {
+    fetch(`http://localhost:6565/delete/${_id}`, {
       method: "DELETE",
     })
       .then((res) => res.json())

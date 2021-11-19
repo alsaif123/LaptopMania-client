@@ -35,7 +35,7 @@ const Header = () => {
               Orders
             </Link>
             <Link to="/AdminShowProduct" className="px-3 link">
-              Admin
+              Dashboard
             </Link>
             <Link to="/home" className="px-3 link">
               Deals

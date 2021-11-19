@@ -7,7 +7,7 @@ const AdminShowProduct = () => {
     console.log(addedProduct);
       const history = useHistory();
       useEffect( () => {
-        fetch("https://secret-headland-63766.herokuapp.com/getNewProduct")
+        fetch("http://localhost:6565/getNewProduct")
         .then(res => res.json())
         .then(data => setAddedProduct(data))
     }, [ ])
