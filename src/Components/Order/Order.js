@@ -18,7 +18,7 @@ const [signedInUser, setSignedInUser] = useContext(UserContext);
     const history = useHistory();
 
     const handleDelete = () => {
-        fetch(`https://laptop-bazar-sever.herokuapp.com/userDelete/${key}`,
+        fetch(`http://localhost:6565/userDelete/${key}`,
             { method: 'DELETE' })
         .then(res => res.json())
         .then(result => {
