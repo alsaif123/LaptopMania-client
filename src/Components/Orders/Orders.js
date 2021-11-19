@@ -8,7 +8,7 @@ const Orders = () => {
        console.log(orderedProducts);
 
     useEffect( () => {
-        fetch('https://laptop-bazar-sever.herokuapp.com/checkout')
+        fetch('http://localhost:6565/checkout')
         .then(res => res.json())
         .then(data =>setOrderedProducts(data))
     }, [])
